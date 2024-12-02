@@ -3,7 +3,7 @@
 
 const fs = require("fs");
 
-fs.readFile("./example-input.csv", "utf8", function (err, data) {
+fs.readFile("./input.csv", "utf8", function (err, data) {
   console.log("raw data: ", data)
   console.log()
 
